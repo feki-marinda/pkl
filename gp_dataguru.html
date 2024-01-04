@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Data Diri</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .profile img {
+            max-width: 100%; /* Mengatur agar gambar tidak melebihi lebar kolom */
+            border-radius: 5%;
+        }
+
+        @media (min-width: 768px) {
+            /* Mengatur agar gambar tidak terlalu besar di layar kecil */
+            .profile img {
+                max-width: 300px;
+            }
+        }
+
+        .profile-table th {
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="text-center">Data Guru Pamong</h1>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 d-flex align-items-center justify-content-center mb-4 mb-md-0">
+                <div class="profile">
+                    <img src="img/dataguru.jpeg" alt="Foto Profil">
+                </div>
+            </div>
+            <div class="col-md-8">
+                <table class="table profile-table table-striped">
+                    <tbody>
+                        <tr>
+                            <th>Nama</th>
+                            <td>John Doe</td>
+                        </tr>
+                        <tr>
+                            <th>Umur</th>
+                            <td>30 tahun</td>
+                        </tr>
+                        <tr>
+                            <th>Alamat</th>
+                            <td>Jl. Contoh No. 123</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr>
+                            <th>No. Telepon</th>
+                            <td>08123456789</td>
+                        </tr>
+                        <!-- Tambahkan informasi data diri lainnya di sini -->
+                    </tbody>
+                </table>
+                <div class="d-grid">
+                    <button type="button" class="btn btn-primary btn-block">Edit Data</button>
+                  </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
